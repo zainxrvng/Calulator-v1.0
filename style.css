@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+}
+.js-message {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 6em;
+  margin-left: 5em;
+}
+.js-message2 {
+  color: white;
+  margin-left: 5em;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 50%;
+}
+.pbtn1 {
+  align-content: center;
+}
+.btn1 {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 20px 25px;
+  margin: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.btn2 {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 20px 25px;
+  margin: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn3 {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 20px 25px;
+  margin: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn4 {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 20px 25px;
+  margin: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.acbtn {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 20px 146px;
+  margin: 5px;
+  margin-left: 59em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  border: 1px solid white;
+  transition: ease-in 0.4s;
+}
+.btn2:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  border: 1px solid white;
+  transition: ease-in 0.4s;
+}
+.btn3:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  border: 1px solid white;
+  transition: ease-in 0.4s;
+}
+.btn4:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  border: 1px solid white;
+  transition: ease-in 0.4s;
+}
+.btn:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  border: 1px solid white;
+  transition: ease-in 0.4s;
+}
+.btn {
+  margin-left: 60em;
+}
+@media (max-width: 390px) {
+  .js-message2,
+  .js-message {
+    margin-left: 5em;
+  }
+
+  .btn {
+    margin-left: 2em !important;
+  }
+  .acbtn {
+    margin-left: 0em;
+    padding: 25px 140px;
+  }
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    margin: 5px;
+  }
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    margin-left: 6px !important;
+    padding: 20px 25px !important;
+  }
+}
+@media (max-width: 300px) {
+  .js-message2,
+  .js-message {
+    margin-left: 3em;
+  }
+
+  .btn {
+    margin-left: 2em !important;
+  }
+  .acbtn {
+    margin-left: 0em;
+    padding: 20px 105px;
+  }
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    margin: -3px;
+  }
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    margin-left: 6px !important;
+    padding: 15px 20px !important;
+  }
+}
