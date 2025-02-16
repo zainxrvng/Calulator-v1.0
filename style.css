@@ -124,9 +124,7 @@ body {
   }
 }
 @media (max-width: 285px) {
-  .body {
-    background-color: red;
-  }
+
   .js-message2,
   .js-message {
     margin-left: 3em;
